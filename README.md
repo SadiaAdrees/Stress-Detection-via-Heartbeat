@@ -42,6 +42,7 @@ The model employs a GRU layer to process sequential heartbeat data, followed by 
 
 The model achieves an impressive accuracy of 98.19% on the test set, demonstrating its effectiveness in classifying normal and abnormal heartbeats. The Area Under the Curve (AUC) is reported as 0.9941, indicating excellent performance. The classification report shows high precision, recall, and F1-score for both normal and abnormal heartbeats. Overall accuracy is reported as 97%, showcasing the model's reliability in making accurate predictions across both classes.
 
+![Accuracy](https://github.com/SadiaAdrees/Stress-Detection-via-Heartbeat/assets/110346827/c31c2967-fd99-4f04-8ed4-819050c2afe2)
 
 
 ## Code
