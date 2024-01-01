@@ -9,13 +9,29 @@ This project delves into the correlation between stress and heartbeat signals by
 
 In the modern era, stress has become a pervasive challenge affecting mental and physical well-being. This project explores the intricate relationship between stress and the cardiovascular system, particularly focusing on the dynamic patterns of the human heartbeat. The research utilizes advanced machine learning techniques, specifically recurrent neural networks (RNNs), to discern between normal and stress-indicative abnormal heartbeats. The project aligns with the broader understanding of stress in contemporary life, emphasizing the need for innovative approaches to stress management.
 
+## Project Tools:
+
+- **Programming Language:** Python
+- **Libraries & Frameworks:**
+  - TensorFlow for building and training the deep neural network
+  - Scikit-learn for data preprocessing and evaluation metrics
+  - Streamlit for creating an interactive web app
+  - Seaborn and Matplotlib for data visualization
+- **Dataset:** ECG Heartbeat Categorization Dataset
+- **IDE:** Google Collab for code development
+- **Version Control:** Git and GitHub for collaborative development
+- **Documentation:** Markdown for clear and organized project documentation
+- **Data Visualization:** Seaborn and Matplotlib for creating visualizations in the project report
+- **Others:** Pandas for data manipulation, NumPy for numerical operations
 
 ## Methodology
 
 The methodology involves meticulous loading and preprocessing of heartbeat data, utilizing a curated dataset from MIT-BIH Arrhythmia and PTB Diagnostic ECG databases. The Gated Recurrent Unit (GRU) architecture is chosen for its ability to capture temporal dependencies in sequential data. The project includes data collection and preprocessing, model architecture design, training, evaluation, results interpretation, and deployment. A Streamlit app is developed for visualization, providing a comprehensive understanding of the stress-heartbeat relationship.
-## Dataset 
+
+## Dataset Source 
 The dataset used in this project is a curated subset from the MIT-BIH Arrhythmia Dataset and The PTB Diagnostic ECG Database. It encompasses diverse heartbeat signals, preprocessed and segmented electrocardiogram (ECG) data. With each segment corresponding to an individual heartbeat, the dataset provides a rich source for training a Gated Recurrent Unit (GRU) neural network. The curated dataset ensures uniformity, facilitating nuanced exploration of stress-related patterns in cardiovascular responses.
 [Dataset Link](https://www.kaggle.com/datasets/shayanfazeli/heartbeat) 
+
 ## Model Working
 
 The model employs a GRU layer to process sequential heartbeat data, followed by a Flatten layer and a Dense layer for binary classification. The model is trained using the Adam optimizer and binary cross-entropy loss function. The training process involves 100 epochs, with early stopping to prevent overfitting. The model's working is detailed, emphasizing key components such as the input layer, data expansion, GRU layer, Flatten layer, and the output layer.
