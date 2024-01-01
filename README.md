@@ -27,6 +27,8 @@ In the modern era, stress has become a pervasive challenge affecting mental and 
 ## Methodology
 
 The methodology involves meticulous loading and preprocessing of heartbeat data, utilizing a curated dataset from MIT-BIH Arrhythmia and PTB Diagnostic ECG databases. The Gated Recurrent Unit (GRU) architecture is chosen for its ability to capture temporal dependencies in sequential data. The project includes data collection and preprocessing, model architecture design, training, evaluation, results interpretation, and deployment. A Streamlit app is developed for visualization, providing a comprehensive understanding of the stress-heartbeat relationship.
+![Methodology](https://github.com/SadiaAdrees/Stress-Detection-via-Heartbeat/assets/110346827/9293c0ae-1efe-4dcf-b46a-3c54b61de4fd)
+
 
 ## Dataset Source 
 The dataset used in this project is a curated subset from the MIT-BIH Arrhythmia Dataset and The PTB Diagnostic ECG Database. It encompasses diverse heartbeat signals, preprocessed and segmented electrocardiogram (ECG) data. With each segment corresponding to an individual heartbeat, the dataset provides a rich source for training a Gated Recurrent Unit (GRU) neural network. The curated dataset ensures uniformity, facilitating nuanced exploration of stress-related patterns in cardiovascular responses.
@@ -44,7 +46,7 @@ The model achieves an impressive accuracy of 98.19% on the test set, demonstrati
 
 The provided code implements data loading, preprocessing, model building, training, evaluation, and a Streamlit app for visualization. The code is well-organized and demonstrates the steps involved in developing and deploying the stress detection model.
 
-## Front end
+## Front-end
 
 The front end is designed using Streamlit, providing an interactive and user-friendly interface for exploring the model's information, classification report, confusion matrix, and other relevant visualizations.
 
